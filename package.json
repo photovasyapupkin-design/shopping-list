@@ -1,0 +1,53 @@
+{
+  "name": "shopping-list-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@better-auth/drizzle-adapter": "^1.6.11",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@neondatabase/serverless": "^1.1.0",
+    "better-auth": "^1.6.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.2",
+    "lucide-react": "^1.16.0",
+    "next": "16.2.6",
+    "postgres": "^3.4.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "resend": "^6.12.3",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/ui": "^4.1.6",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.0",
+    "typescript": "^5",
+    "vitest": "^4.1.6"
+  }
+}
